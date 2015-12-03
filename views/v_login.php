@@ -37,7 +37,7 @@
 		      <form class="form-login" action="index.php" method="post">
 		        <h2 class="form-login-heading">sign in now</h2>
 		        <div class="login-wrap">
-		            <input type="text" class="form-control" placeholder="User ID" autofocus>
+		            <input type="text" class="form-control" placeholder="Username" autofocus>
 		            <br>
 		            <input type="password" class="form-control" placeholder="Password">
 		            <label class="checkbox">
