@@ -2,7 +2,7 @@
 
 
 
-
+							<table width='1300'>
 						   <table  class='table table-striped'>
                             	<tr>
                                 	<th>NIS</th>
@@ -39,7 +39,7 @@ if ($find_db) {
 												<td>$tampilkan[NIS]</td>
 												<td>$tampilkan[namasiswa]</td>
 												<td>$tampilkan[jeniskelamin]</td>
-												<td>$tampilkan[tgllahir]</td>
+												<td>$tampilkan[tanggallahir]</td>
 												<td>$tampilkan[alamat]</td>
 												<td>$tampilkan[status]</td>
 												<td>$tampilkan[agama]</td>

@@ -6,6 +6,7 @@
 
 						   <table  class='table table-striped'>
                             	<tr>
+									<th>ID ADMIN</th>
                               		<th>USERNAME</th>
                                     <th>NAMA ADMIN</th>
 									<th>PASSWORD</th>
@@ -26,11 +27,12 @@ $find_db=mysql_select_db($database);
  
 if ($find_db) {
 									$no=1;
-									$query = "select * from admin order by username";
+									$query = "select * from admin order by idadmin";
 									$hasil = mysql_query($query);
 									while($tampilkan = mysql_fetch_array($hasil))
 									{
 								        echo"<tr>
+												<td>$tampilkan[idadmin]</td>
 												<td>$tampilkan[username]</td>
 												<td>$tampilkan[namaadmin]</td>
 												<td>$tampilkan[password]</td>

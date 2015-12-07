@@ -62,7 +62,7 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu" id="nav-accordion">
               
-              	  <p class="centered"><a href="profile.php"><img src="assets/img/music2.png" class="img-circle" width="60"></a></p>
+              	  <p class="centered"><a href="profile.php"><img src="assets/img/mahadewi.jpg" class="img-circle" width="60"></a></p>
               	  <h5 class="centered">Admin</h5>
               	  
 				  <li class="mt">
@@ -100,12 +100,12 @@
 						  </li>
 						  </ul>
 					<li class="mt">
-                      <a href="orangtua.php">
+                      <a href="divisi.php">
                           <i class="fa fa-music"></i>
                           <span>Divisi</span>
 						  </a> 
 						   <ul>
-						  <li><a href="payment.php">
+						  <li><a href="divisi.php">
 						   <i class="fa fa-music"></i>
 						  Daftar Divisi</a>
 						  </li>
