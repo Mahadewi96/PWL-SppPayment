@@ -73,8 +73,14 @@
                   <li class="mt">
                       <a href="dashboard.php">
                           <i class="fa fa-dashboard"></i>
-                          <span>Dashboard</span>
+                          <span>Admin</span>
                       </a>
+					  	  <ul>
+						  <li><a href="dashboard.php">
+						   <i class="fa fa-users"></i>
+						   Admin</a>
+						  </li>
+						  </ul>
                   </li>
 				  <li class="mt">
                       <a href="siswa.php">
@@ -99,6 +105,7 @@
 						  Daftar Orang Tua</a>
 						  </li>
 						  </ul>
+						   <li class="mt">
 					<li class="mt">
                       <a href="divisi.php">
                           <i class="fa fa-music"></i>

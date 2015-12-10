@@ -6,10 +6,9 @@
 
 						   <table  class='table table-striped'>
                             	<tr>
-                                	<th>NO</th>
+                                	<th>ID ADMIN</th>
 									<th>USERNAME</th>
-                                    <th>ADMIN NAME</th>
-									<th>EMAIL</th>
+                                   	<th>PASSWORD</th>
 									
                                 </tr>
 								
@@ -17,7 +16,7 @@
  
 $user_name = "root";
 $password = "";
-$database = "apotek";
+$database = "pembayaranspp";
 $host_name = "localhost";
  
 $connect_db=mysql_connect($host_name, $user_name, $password);
@@ -26,15 +25,15 @@ $find_db=mysql_select_db($database);
  
 if ($find_db) {
 									$no=1;
-									$query = "select * from admin order by username";
+									$query = "select * from admin order by idadmin";
 									$hasil = mysql_query($query);
 									while($tampilkan = mysql_fetch_array($hasil))
 									{
 								        echo"<tr>
-												<td>$no</td>
+												<td>$tampilkan[idadmin]</td>
 												<td>$tampilkan[username]</td>
-												<td>$tampilkan[nama_lengkap]</td>
-												<td>$tampilkan[email]</td>
+												<td>$tampilkan[password]</td>
+												
 												</td>
                 	                        </tr>";
 											$no++;

@@ -3,4 +3,4 @@
 </br>
 </br>
 </br>
-<center><p>Sistem ini mempermudah admin pembayaran melakukan pembayaran spp dan menyimpan data siswa yang telah membayar spp</p></center>
+<center><p>Sistem ini mempermudah admin melakukan pembayaran spp dan menyimpan data siswa yang telah membayar spp</p></center>

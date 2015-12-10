@@ -9,9 +9,8 @@
 									<th>NIS</th>
 									<th>JENIS PEMBAYARAN</th>
 									<th>TANGGAL PEMBAYARAN</th>
-									<th>DIVISI</th>
+									<th>KODE DIVISI</th>
                                     <th>TOTAL PEMBAYARAN</th>
-									<th>NO KTP ORTU</th>
 									<th>USERNAME ADMIN</th>
 									</tr>
 								
@@ -37,9 +36,8 @@ if ($find_db) {
 												<td>$tampilkan[NIS]</td>
 												<td>$tampilkan[jenispembayaran]</td>
 												<td>$tampilkan[tglpembayaran]</td>
-												<td>$tampilkan[Divisi]</td>
+												<td>$tampilkan[kodedivisi]</td>
 												<td>$tampilkan[totalpembayaran]</td>
-												<td>$tampilkan[noktp]</td>
 												<td>$tampilkan[username]</td>
 												<td><a href='?modul=edit_pembayaran&id=$tampilkan[kodepembayaran]'>Edit</a> |
 													<a href='proses.php?modul=hapus_pembaya&id=$tampilkan[kodepembayaran]'>Hapus<a>

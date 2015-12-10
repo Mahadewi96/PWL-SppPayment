@@ -31,10 +31,10 @@
       MAIN CONTENT
       *********************************************************************************************************************************************************** -->
 
-	  <div id="login-page">
+  	  <div id="login-page">
 	  	<div class="container">
-	  	
-		      <form class="form-login" action="index.php" method="post">
+				<h3><center>For username is admin and pasword is 1234</h3></center>
+		      <form class="form-login" action="dashboard.php" method="post">
 		        <h2 class="form-login-heading">sign in now</h2>
 		        <div class="login-wrap">
 		            <input type="text" class="form-control" placeholder="Username" autofocus>
@@ -46,8 +46,9 @@
 		
 		                </span>
 		            </label>
-		            <button class="btn btn-theme btn-block" href="index.html" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
+		            <button class="btn btn-theme btn-block" href="dashboard.html" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
 		            <hr>
+					
 		            		           
 		
 		        </div>

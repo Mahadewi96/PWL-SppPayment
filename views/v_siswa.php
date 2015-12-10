@@ -2,22 +2,20 @@
 
 
 
-							<table width='1300'>
+							
 						   <table  class='table table-striped'>
                             	<tr>
                                 	<th>NIS</th>
 									<th>NAMA SISWA</th>
-                                    <th>JENIS KELAMIN</th>
+									<th>JENIS KELAMIN</th>
 									<th>TANGGAL LAHIR</th>
 									<th>ALAMAT</th>
                                     <th>AGAMA</th>
-                                    <th>NAMA ORG TUA</th>
-									 <th>DIVISI</th>
-									<th>KELAS</th>
-									 <th>NO.KTP ORG TUA</th>
+									<th>NAMA ORTU</th>
+									<th>KODE DIVISI</th>
+									<th>ACTION</th>
 									
-                                </tr>
-								
+									</tr>
 <?php
  
 $user_name = "root";
@@ -41,14 +39,12 @@ if ($find_db) {
 												<td>$tampilkan[jeniskelamin]</td>
 												<td>$tampilkan[tanggallahir]</td>
 												<td>$tampilkan[alamat]</td>
-												<td>$tampilkan[status]</td>
 												<td>$tampilkan[agama]</td>
 												<td>$tampilkan[namaortu]</td>
-												<td>$tampilkan[divisi]</td>
-												<td>$tampilkan[kelas]</td>
-												<td>$tampilkan[noktp]</td>
-												<td><a href='?modul=edit_siswa&no=$tampilkan[NIS]'>Edit</a>
-													<a href='proses.php?modul=hapus_siswa&id=$tampilkan[NIS]'>Hapus<a>
+												<td>$tampilkan[kodedivisi]</td>
+												
+												<td><a href='?modul=edit/edit_siswa&NIS=$tampilkan[NIS]'>Edit</a> |
+													<a href='?modul=delete/delete_siswa&NIS=$tampilkan[NIS]'>Hapus<a>
 												</td>
                 	                        </tr>";
 											$no++;

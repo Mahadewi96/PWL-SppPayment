@@ -9,8 +9,7 @@
 									<th>ID ADMIN</th>
                               		<th>USERNAME</th>
                              		<th>PASSWORD</th>
-							
-									
+									<th>ACTION</th>
                                 </tr>
 								
 <?php
