@@ -28,12 +28,14 @@ $connect_db=mysql_connect($host_name, $user_name, $password);
 $find_db=mysql_select_db($database);
  
 if ($find_db) {
+									
 									$no=1;
-									$query = "select * from siswa order by NIS";
+									$query = "select * from siswa order by NIS ";
 									$hasil = mysql_query($query);
 									while($tampilkan = mysql_fetch_array($hasil))
 									{
 								        echo"<tr>
+												
 												<td>$tampilkan[NIS]</td>
 												<td>$tampilkan[namasiswa]</td>
 												<td>$tampilkan[jeniskelamin]</td>
@@ -42,9 +44,8 @@ if ($find_db) {
 												<td>$tampilkan[agama]</td>
 												<td>$tampilkan[namaortu]</td>
 												<td>$tampilkan[kodedivisi]</td>
-												
-												<td><a href='?modul=edit/edit_siswa&NIS=$tampilkan[NIS]'>Edit</a> |
-													<a href='?modul=delete/delete_siswa&NIS=$tampilkan[NIS]'>Hapus<a>
+												<td><a href='?modul=edit_siswa?$no=<?php echo $tampilkan[NIS]'>Edit</a> |
+													<a href='?modul=delete_siswa?$no=<?php echo $tampilkan[NIS]'>Delete<a>
 												</td>
                 	                        </tr>";
 											$no++;

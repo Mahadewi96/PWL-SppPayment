@@ -12,6 +12,7 @@
 									<th>KODE DIVISI</th>
                                     <th>TOTAL PEMBAYARAN</th>
 									<th>USERNAME ADMIN</th>
+									<th>ACTION</th>
 									</tr>
 								
 <?php

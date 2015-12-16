@@ -11,6 +11,7 @@
 									<th>JENIS KELAMIN</th>
                                     <th>ALAMAT</th>
 									<th>PEKERJAAN</th>
+									<th>ACTION</th>
 									</tr>
 								
 <?php
