@@ -38,8 +38,8 @@ if ($find_db) {
 												<td>$tampilkan[jeniskelamin]</td>
 												<td>$tampilkan[alamat]</td>
 												<td>$tampilkan[pekerjaan]</td>
-												<td><a href='?modul=edit_orangtua&id=$tampilkan[noktp]'>Edit</a> |
-													<a href='proses.php?modul=hapus_orangtua&id=$tampilkan[noktp]'>Hapus<a>
+												<td><a href='?modul=edit_orangtua&id=$tampilkan[noktp]'><span class='label label-success'>edit</span>
+													<a href='proses.php?modul=hapus_orangtua&id=$tampilkan[noktp]'><span class='label label-danger'>delete</span>
 												</td>
                 	                        </tr>";
 									$no++;

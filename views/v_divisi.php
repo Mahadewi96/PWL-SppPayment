@@ -30,8 +30,8 @@ if ($find_db) {
 												<td>$tampilkan[kodedivisi]</td>
 												<td>$tampilkan[namadivisi]</td>
 												
-												<td><a href='?modul=edit_divisi&no=$tampilkan[kodedivisi]'>Edit</a> |
-													<a href='proses.php?modul=hapus_divisi&id=$tampilkan[kodedivisi]'>Hapus<a>
+												<td><a href='?modul=edit_divisi&no=$tampilkan[kodedivisi]'><span class='label label-success'>edit</span>
+													<a href='proses.php?modul=hapus_divisi&id=$tampilkan[kodedivisi]'><span class='label label-danger'>delete</span>
 												</td>
                 	                        </tr>";
 											$no++;

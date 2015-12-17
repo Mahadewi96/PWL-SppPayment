@@ -44,8 +44,10 @@ if ($find_db) {
 												<td>$tampilkan[agama]</td>
 												<td>$tampilkan[namaortu]</td>
 												<td>$tampilkan[kodedivisi]</td>
-												<td><a href='?modul=edit_siswa?$no=<?php echo $tampilkan[NIS]'>Edit</a> |
-													<a href='?modul=delete_siswa?$no=<?php echo $tampilkan[NIS]'>Delete<a>
+												<td> <a href='?modul=edit_siswa?$no=<?php echo $tampilkan[NIS]'>
+												<span class='label label-success'>edit</span>
+												<a href='?modul=delete_siswa?$no=<?php echo $tampilkan[NIS]'>
+													<span class='label label-danger'>delete/span> 
 												</td>
                 	                        </tr>";
 											$no++;

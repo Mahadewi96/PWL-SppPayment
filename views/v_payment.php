@@ -40,8 +40,8 @@ if ($find_db) {
 												<td>$tampilkan[kodedivisi]</td>
 												<td>$tampilkan[totalpembayaran]</td>
 												<td>$tampilkan[username]</td>
-												<td><a href='?modul=edit_pembayaran&id=$tampilkan[kodepembayaran]'>Edit</a> |
-													<a href='proses.php?modul=hapus_pembaya&id=$tampilkan[kodepembayaran]'>Hapus<a>
+												<td><a href='?modul=edit_pembayaran&id=$tampilkan[kodepembayaran]'><span class='label label-success'>edit</span>
+													<a href='proses.php?modul=hapus_pembaya&id=$tampilkan[kodepembayaran]'><span class='label label-danger'>delete</span>
 												</td>
                 	                        </tr>";
 									$no++;
